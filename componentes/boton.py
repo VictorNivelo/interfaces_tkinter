@@ -27,7 +27,7 @@ posicion_alto = (alto_pantalla - alto) // 2
 ventana.geometry(f"{ancho}x{alto}+{posicion_ancho}+{posicion_alto}")
 
 # título de la ventana
-ventana.title("Ventana de prueba")
+ventana.title("Contador de Clics")
 
 # configurar el color de fondo de la ventana
 ventana.configure(bg=color_fondo)

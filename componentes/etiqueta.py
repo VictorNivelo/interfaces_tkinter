@@ -24,7 +24,7 @@ ventana.geometry(f"{ancho}x{alto}+{posicion_ancho}+{posicion_alto}")
 ventana.title("Ventana de prueba")
 
 # etiqueta en la ventana
-etiqueta = tk.Label(ventana, text="Etiqueta de prueba")
+etiqueta = tk.Label(ventana, text="Etiqueta de prueba", font=("Arial", 25))
 
 # empaquetar la etiqueta
 etiqueta.pack()
